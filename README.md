@@ -1,6 +1,6 @@
-### Hi, I'm Rutvij. I build AI systems and get them through production.
+### Hi, I'm Rutvij. I build software and AI systems and get them through production.
 
-AI engineer looking for a **founding or early engineer role** at an AI startup, from **February 2027**. MS in Computer Science at the University of Chicago, finishing December 2026.
+Software engineer looking for a **founding or early engineer role** at a startup, from **February 2027**. I build AI systems and the backend under them. MS in Computer Science at the University of Chicago, finishing December 2026.
 
 **Before grad school:** I was a Software Development Engineer at [Callmatic](https://callmatic.ai) (Jan 2024 to Aug 2025), a voice AI startup whose phone agents handle calls for enterprise clients.
 
@@ -17,6 +17,7 @@ AI engineer looking for a **founding or early engineer role** at an AI startup, 
 - **[rowback](https://github.com/rutvijjoshi26/rowback)**: an undo button for PostgreSQL. When a bad `DELETE` (yours or an AI agent's) hits production, it reverses just that transaction and keeps every later write. In benchmarks it was 9.5x faster than restoring from backup, with every row checked by md5.
 - **[route-dispatch-platform](https://github.com/rutvijjoshi26/route-dispatch-platform)**: plans delivery routes on real roads and re-plans while vans are driving. On a 200-stop Chicago day it cut driving distance 44% versus nearest-neighbor and delivered all 200 stops inside their time windows. A mid-shift re-plan takes 1.5 s.
 - **[agent-pin](https://github.com/rutvijjoshi26/agent-pin)**: an always-on-top overlay for my coding agents (Claude Code, Codex). It shows every session, puts the ones waiting on my approval first, recaps what changed since I last looked, and warns when two sessions edit the same file. Runs on macOS, Windows and Linux.
+- **[parallel-compressor-go](https://github.com/rutvijjoshi26/parallel-compressor-go)**: a parallel block compressor in Go with work stealing, a checksummed format and bounded memory, fuzz- and race-tested. Against `gzip -1` it compresses 2.4 to 4.2x faster and decompresses 1.9 to 2.2x faster; the README also shows where zstd still wins.
 - **Cirgle**: a habit-tracking app with friends that grew to 140+ users in 3 countries (React Native, FastAPI, Supabase).
 
 ### How I work
@@ -25,4 +26,4 @@ I get a working version in front of users fast, on simple tools that are cheap t
 
 **Stack I use most:** Python, TypeScript, Go · FastAPI, Node.js, React · Postgres, Redis · LangChain/LangGraph, RAG, MCP, PyTorch · Docker, AWS.
 
-📫 [rutvijjoshi5@gmail.com](mailto:rutvijjoshi5@gmail.com) · [LinkedIn](https://linkedin.com/in/rutvij-joshi5). I usually reply within a day.
+[rutvijjoshi5@gmail.com](mailto:rutvijjoshi5@gmail.com) · [LinkedIn](https://linkedin.com/in/rutvij-joshi5). I usually reply within a day.
